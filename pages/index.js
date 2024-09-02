@@ -1,10 +1,8 @@
-import type { NextPage } from "next";
-import Head from "next/head";
+import Head from 'next/head'
 import Card from '../components/Card';
 import Starfield from '../components/Starfield';
 
-
-const Home: NextPage = () => {
+export default function Home() {
   return (
     <div>
       <Head>
@@ -15,5 +13,3 @@ const Home: NextPage = () => {
     </div>
   );
 };
-
-export default Home;
