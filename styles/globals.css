@@ -28,17 +28,17 @@ a {
 
 .card {
   position: absolute;
-  width: 350px;
+  width: 550px;
   transform: translate(-50%, -50%);
-  background-color: rgb(64, 51, 158, 0.8);
+  background-color: rgb(39, 38, 49, 0.8);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .json {
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   justify-content: center;
   align-items: center;
 }
