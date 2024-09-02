@@ -1,23 +1,21 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+'use client';
 
-export default function Home() {
+import type { NextPage } from "next";
+import Head from "next/head";
+import Card from '../components/Card';
+import Starfield from '../components/Starfield';
+
+
+const Home: NextPage = () => {
   return (
-    <div className="container">
+    <div>
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Hello World!</title>
       </Head>
-
-      <main>
-        <Header title="Hello World!" />
-        <p className="description">
-          <code>const var data = "wait lang gagi!"</code>
-        </p>
-      </main>
-
-      <Footer />
+      <Starfield />
+      <Card />
     </div>
-  )
-}
+  );
+};
+
+export default Home;
