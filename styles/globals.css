@@ -28,7 +28,7 @@ a {
 
 .card {
   position: absolute;
-  width: 550px;
+  width: 450px;
   transform: translate(-50%, -50%);
   background-color: rgb(39, 38, 49, 0.8);
   padding: 20px;
