@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typewriter } from 'nextjs-simple-typewriter'
-import Footer from '../components/Footer';
+import Footer from './Footer';
+import Header from './Header';
 
 const Card: React.FC = () => {
   const data = {
