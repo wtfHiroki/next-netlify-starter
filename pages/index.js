@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Hello World!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          <code>const var data = "wait lang gagi!"</code>
         </p>
       </main>
 
