@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'nextjs-simple-typewriter'
+import Footer from '../components/Footer';
 
 const Card: React.FC = () => {
   const data = {
@@ -15,6 +16,7 @@ const Card: React.FC = () => {
   return (
   <div className="card">
     <pre className="json">{JSON.stringify(data, null, 2)}</pre>
+    <Footer />
   </div>
   );
 };
