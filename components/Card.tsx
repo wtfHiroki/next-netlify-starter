@@ -15,6 +15,7 @@ const Card: React.FC = () => {
   };
   return (
   <div className="card">
+    <Header title='Hello World!'/>
     <pre className="json">{JSON.stringify(data, null, 2)}</pre>
     <Footer />
   </div>
