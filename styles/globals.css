@@ -28,7 +28,7 @@ a {
 
 .card {
   position: absolute;
-  width: 550px;
+  width: 350px;
   transform: translate(-50%, -50%);
   background-color: rgb(64, 51, 158, 0.8);
   padding: 20px;
@@ -38,7 +38,7 @@ a {
 
 .json {
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   justify-content: center;
   align-items: center;
 }
