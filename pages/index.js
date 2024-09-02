@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Card from '../components/Card';
 import Starfield from '../components/Starfield';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
       <Starfield />
       <Card />
+      <Footer />
     </div>
   );
 };
