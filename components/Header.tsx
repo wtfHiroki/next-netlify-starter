@@ -6,19 +6,22 @@ interface HeaderProps {
 
 export default function Header({ title }: HeaderProps) {
   const quotes = [
-    "I have no idea what I'm doing, but I'm doing it anyway.",
-    "Code, commit, push, repeat.",
-    "I'm not arguing, I'm just explaining why I'm right.",
-    "May the code be with you.",
-    "I'm not lazy, I'm just on energy-saving mode.",
-    "Coffee: because adulting is hard, but coding is harder.",
-    "I'm not a morning person, I'm a coffee person.",
-    "Code like no one is watching, because no one is watching.",
-    "Why do I always forget that I need to commit my changes?",
-    "When in doubt, add more coffee.",
-    "When in doubt, add more code.",
-    "Code, sleep, eat, repeat.",
-  ];
+  "Code, eat, sleep, repeat",
+  "Error is my love language",
+  "Caffeine fueled code",
+  "May the code be with you",
+  "Ctrl+Alt+Procrastinate",
+  "I'd rather be coding",
+  "Code is my therapy",
+  "Debugging is my life",
+  "Code all night, sleep all day",
+  "Bugs are my pets",
+  "Code, commit, repeat",
+  "I'm not lazy, I'm just on coding mode",
+  "Code is my happy place",
+  "Error 404: Productivity not found",
+  "Coding is my superpower"
+];
   return (
     <div>
       <pre className="title">
