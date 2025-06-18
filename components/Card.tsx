@@ -6,7 +6,7 @@ import Header from './Header';
 const Card: React.FC = () => {
   const data = {
     name: "Hiroki Devz",
-    age: 21,
+    age: 22,
     country: "philippines",
     socials: {
       facebook: "@menard.9k",
